@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    height: auto;
+}
+
+.navbar-logo-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 5rem; */
+    margin-left: 8rem;
+}
+.navbar-logo i{
+    font-size: 3rem;
+    color: white;
+}
+.navbar-logo-text h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* .navbar-menu {} */
+
+.navbar-menu ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 6rem;
+    /* line-height: 1.5rem; */
+
+}
+
+.navbar-menu a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+.navbar-menu a:hover{
+    color: rgb(133, 214, 12);
+    /* border: 1px solid rgb(133, 214, 12); */
+    border-radius: 5px;
+}
+.navbar-information{
+    background-color: #df0c8b;
+    padding: 4rem;
+    color: white;display: flex;
+    flex-direction: row;
+    padding: 1rem 10rem;
+}
+.image-container{
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+.navbar-information .navbar-text1{
+    margin: 30px 0px 0px 0px;
+}
+.navbar-information .navbar-text2{
+    margin: 30px 0px 0px 0px;
+}
+.navbar-information .navbar-text3{
+    font-size: 16px;
+    text-align: center;
+}
+.navbar-information-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.navbar-information-container .buttons{
+    display: flex;
+    gap: 2rem;
+}
+.navbar-text1{
+    width: 100%;
+    font-size: 2rem;
+}
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    padding: 40px 10px 10px 10px;
+    font-size: 2rem;
+}
+.h3-specific{
+    margin-top: 2rem;
+}
+.buttons .button-1 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 4rem;
+    padding: 10px 30px;
+}
+.buttons .button-2 button{
+    background-color: #df0c8b;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4rem;
+    padding: 10px 30px;
+}
+.buttons .button-2 button:hover{
+    background-color: #af096d;
+}
+.navbar-body-container {
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar-body {
+    display: flex;
+    gap: 7rem;
+    margin-top: 9vh;
+}
+.navbar-body-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+.navbar-body-item .span-title{
+    font-size: 1.5rem;
+}
+/* ------------------------------------------------------------------------------------------ */
+.cards{
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 3rem;
+    gap: 3rem;
+    width: 100%;
+}
+.title-container {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.all-cards{
+    margin: 1rem 6rem 6rem 6rem;
+    display: flex;
+    gap: 2rem;
+}
+.span-1{
+    background-color: rgb(13, 114, 234);
+    font-size: 1rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    position: absolute;
+}
+.span-2{
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(13, 114, 234);
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: rgb(13, 114, 234);
+    position: absolute;
+    margin-top: 2rem;
+}
+.card{
+    width: 22%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+    font-weight: 100;
+}
+.card-head-p{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.card-top-line{
+    line-height: 1.5rem;
+}
+.card-bottom-lines{
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem 0rem;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.center-dual-hr-top{
+    margin-bottom: 3rem;
+}
+.end-hr-top{
+    margin-bottom: 3rem;
+}
+hr{
+    margin: 1rem 0rem;
+    width: 95%;
+}
+.btn-top button{
+    background: black;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 10px 25px;
+    margin: 1rem;
+}
+.btn-bottom button{
+    background: white;
+    padding: 0px 10px;
+    margin: 0rem 3rem;
+    border: none;   
+    font-size: 1rem;
+}
+.btn-bottom button:hover{
+    color: red;
+}
+.all-cards a{
+    text-decoration: underline;
+    color: black;
+}
+/* -------------------------------------------------------------------------------------- */
+.footer-container{
+    font-family:'Times New Roman', Times, serif;
+    background-color: black;
+    color: #fff ;
+}   
+.footer-container a{
+    color: #fff;
+}
+.footer-top{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    line-height: 3rem;
+    padding: 3rem 7rem;
+}  
+.footer-top a:hover{
+    color: rgb(133, 214, 12);
+}
+.footer-logo-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+.footer-icons i{
+    font-size: 40px;
+}
+.footer-title{
+    color: #919496;
+}
+.footer-bottom{
+    color: #919496;
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+}
+.footer-bottom-left ul{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 6rem;
+}
+.footer-bottom-left ul a{
+    color: #919496;
+    font-size: 10px;
+}
+.footer-bottom-left ul a:hover{
+    color: rgb(133, 214, 12);
+}
+.footer-bottom-right{
+    display: flex;
+    flex-direction:column;
+    margin-left: 38% ;
+    text-align: right;
+    font-size: 10px;
+    line-height: 1.5rem;
+}
+/* ------------------------------------------------------------------------------------------ */
+/* 
+@media only screen and (max-width:800px) {
+    .cards{
+        padding: 0;
+    }
+    .all-cards{
+        flex-direction: column;
+        
+    }
+    .card{
+        width: 100%;
+    }
+} */
